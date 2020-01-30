@@ -15,12 +15,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/button_CreateNewListing'))
 
-WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Nama Owner_ownerName'), 'test mulki 1')
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Nama Owner_ownerName'), 'test mulki 2')
 
 WebUI.setText(findTestObject('Object Repository/LIANA/submission_liana/Page_Listing Management/input_No Telephone_ownerPhoneNumber'), 
     '083829943719')
 
-WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Sumber Listing_listingSource'), 'teman')
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Sumber Listing_listingSource'), 'partner kantor')
 
 WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/dorpdown_typeProperty'))
 
