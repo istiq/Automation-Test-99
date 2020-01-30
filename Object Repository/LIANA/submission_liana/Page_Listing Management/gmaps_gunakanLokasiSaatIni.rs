@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>gmaps_gunakanLokasiSaatIni</name>
+   <tag></tag>
+   <elementGuidId>986eac43-de8a-4710-b58d-304dc6b1a30c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div/div/div/div[3]/div/div/div/div[8]/button/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-atomic-text ui-atomic-text--style-heading-6 ui-atomic-text--font-primary ui-atomic-text--font-weight-bold ui-atomic-text--align-center</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GUNAKAN LOKASI SAAT INI</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;ui-modules-admin flex&quot;]/div[@class=&quot;ui-modules-admin__content&quot;]/div[@class=&quot;ui-template-desktop-admin-default&quot;]/div[@class=&quot;ui-template-desktop-admin-default__content p-32&quot;]/div[@class=&quot;ui-pages-listing-dashboard&quot;]/div[@class=&quot;block ui-molecules-form-accordion ui-pages-listing-dashboard__accordion mt-16 ui-molecules-accordion ui-molecules-accordion--show&quot;]/div[@class=&quot;ui-molecules-accordion__content&quot;]/div[1]/div[@class=&quot;p-16&quot;]/div[@class=&quot;ui-pages-listing-dashboard__row&quot;]/button[@class=&quot;block mr-8 ml-8 mt-16 ui-atomic-button ui-atomic-button--styling-basic ui-atomic-button--icon-pre ui-atomic-button--size-medium ui-atomic-button--state-fill pl-20 pr-20&quot;]/div[@class=&quot;ui-atomic-button__content relative flex&quot;]/span[@class=&quot;ui-atomic-text ui-atomic-text--style-heading-6 ui-atomic-text--font-primary ui-atomic-text--font-weight-bold ui-atomic-text--align-center&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/div/div/div[3]/div/div/div/div[8]/button/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report a map error'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of Use'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='my_location'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Jalan/Kompleks'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>

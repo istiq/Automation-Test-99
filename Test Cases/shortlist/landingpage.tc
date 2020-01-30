@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>landingpage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15603953-09d9-4980-9d75-60aa53e254f4</testCaseGuid>
+   <variable>
+      <defaultValue>'Rp. 450.000.000'</defaultValue>
+      <description></description>
+      <id>7f987600-b535-4827-aaa0-e9b81bc92f66</id>
+      <masked>false</masked>
+      <name>harga_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp. 450.000.000'</defaultValue>
+      <description></description>
+      <id>909f8a30-9d9b-448d-b65c-d24d81b96398</id>
+      <masked>false</masked>
+      <name>harga_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'rumah dibandung murah 10 menit tol buah batu, Bojongsoang, Bandung'</defaultValue>
+      <description></description>
+      <id>e7c53326-c41d-4914-be4c-70715931341d</id>
+      <masked>false</masked>
+      <name>deskripsi_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rumah dibandung murah 10 menit tol buah batu, Bojongsoang, Bandung'</defaultValue>
+      <description></description>
+      <id>d1a2b965-4355-4413-bb2f-1900e50f33cb</id>
+      <masked>false</masked>
+      <name>deskripsi_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bojongsoang, Bandung'</defaultValue>
+      <description></description>
+      <id>bce13230-325a-40a8-abc5-98259f5b8d02</id>
+      <masked>false</masked>
+      <name>lokasi_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bojongsoang, Bandung'</defaultValue>
+      <description></description>
+      <id>fee01136-e347-4832-b336-7faf403eaa75</id>
+      <masked>false</masked>
+      <name>lokasi_2</name>
+   </variable>
+</TestCaseEntity>

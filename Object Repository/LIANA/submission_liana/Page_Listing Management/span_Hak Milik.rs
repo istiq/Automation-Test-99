@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Hak Milik</name>
+   <tag></tag>
+   <elementGuidId>054da9d4-bb1d-480b-af5e-fd83ccd8da11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div/div/div/div[3]/div/div/div/div[4]/div/div[2]/div[2]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-molecules-dropdown-desktop__title ui-atomic-text ui-atomic-text--style-heading-6 ui-atomic-text--font-primary ui-atomic-text--font-weight-semibold ui-atomic-text--align-left</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hak Milik</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;ui-modules-admin flex&quot;]/div[@class=&quot;ui-modules-admin__content&quot;]/div[@class=&quot;ui-template-desktop-admin-default&quot;]/div[@class=&quot;ui-template-desktop-admin-default__content p-32&quot;]/div[@class=&quot;ui-pages-listing-dashboard&quot;]/div[@class=&quot;block ui-molecules-form-accordion ui-pages-listing-dashboard__accordion mt-16 ui-molecules-accordion ui-molecules-accordion--show&quot;]/div[@class=&quot;ui-molecules-accordion__content&quot;]/div[1]/div[@class=&quot;p-16&quot;]/div[@class=&quot;ui-pages-listing-dashboard__row flex&quot;]/div[@class=&quot;ui-pages-listing-dashboard__input flex ui-molecules-dropdown-desktop ui-molecules-dropdown-desktop--active ui-molecules-dropdown-desktop--styling-default&quot;]/div[@class=&quot;ui-molecules-dropdown-desktop__content mt-5 inline-block relative&quot;]/div[@class=&quot;ui-molecules-dropdown-desktop__back-drop absolute fade-enter-done&quot;]/div[@class=&quot;flex p-8 ui-molecules-dropdown-desktop__back-drop__item ui-molecules-dropdown-desktop__back-drop__item--active&quot;]/span[@class=&quot;ui-molecules-dropdown-desktop__title ui-atomic-text ui-atomic-text--style-heading-6 ui-atomic-text--font-primary ui-atomic-text--font-weight-semibold ui-atomic-text--align-left&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/div/div/div[3]/div/div/div/div[4]/div/div[2]/div[2]/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_up'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hak Milik'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hak Guna Bangunan'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hak Pakai'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div[2]/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>

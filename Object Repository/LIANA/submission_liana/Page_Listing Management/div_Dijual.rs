@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Dijual</name>
+   <tag></tag>
+   <elementGuidId>25189b2c-80b9-4c41-8db9-2dcff552fd28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div/div/div/div[3]/div/div/div/div/div[2]/div[2]/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex p-8 ui-molecules-dropdown-desktop__back-drop__item ui-molecules-dropdown-desktop__back-drop__item--active</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dijual</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;ui-modules-admin flex&quot;]/div[@class=&quot;ui-modules-admin__content&quot;]/div[@class=&quot;ui-template-desktop-admin-default&quot;]/div[@class=&quot;ui-template-desktop-admin-default__content p-32&quot;]/div[@class=&quot;ui-pages-listing-dashboard&quot;]/div[@class=&quot;block ui-molecules-form-accordion ui-pages-listing-dashboard__accordion mt-16 ui-molecules-accordion ui-molecules-accordion--show&quot;]/div[@class=&quot;ui-molecules-accordion__content&quot;]/div[1]/div[@class=&quot;p-16&quot;]/div[@class=&quot;ui-pages-listing-dashboard__row flex&quot;]/div[@class=&quot;ui-pages-listing-dashboard__input flex ui-molecules-dropdown-desktop ui-molecules-dropdown-desktop--active ui-molecules-dropdown-desktop--styling-default&quot;]/div[@class=&quot;ui-molecules-dropdown-desktop__content mt-5 inline-block relative&quot;]/div[@class=&quot;ui-molecules-dropdown-desktop__back-drop absolute fade-exit-done fade-enter-done&quot;]/div[@class=&quot;flex p-8 ui-molecules-dropdown-desktop__back-drop__item ui-molecules-dropdown-desktop__back-drop__item--active&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/div/div/div[3]/div/div/div/div/div[2]/div[2]/div[2]/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apapun'])[2]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_up'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disewa'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>
