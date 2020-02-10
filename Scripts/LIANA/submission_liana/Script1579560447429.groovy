@@ -15,12 +15,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/button_CreateNewListing'))
 
-WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Nama Owner_ownerName'), 'test mulki 2')
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Nama Owner_ownerName'), 'test aples')
 
 WebUI.setText(findTestObject('Object Repository/LIANA/submission_liana/Page_Listing Management/input_No Telephone_ownerPhoneNumber'), 
-    '083829943719')
+    '081111111111')
 
-WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Sumber Listing_listingSource'), 'partner kantor')
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Sumber Listing_listingSource'), 'saudara')
 
 WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/dorpdown_typeProperty'))
 
@@ -30,11 +30,11 @@ WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/dropd
 
 WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/div_Dijual'))
 
-WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Harga_price'), '600000000')
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Harga_price'), '320000000')
 
-WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Luas Bangunan_buildingSize'), '80')
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Luas Bangunan_buildingSize'), '85')
 
-WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Luas Tanah_landSize'), '100')
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Luas Tanah_landSize'), '90')
 
 WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Kamar Tidur_bedrooms'), '2')
 
@@ -58,17 +58,17 @@ WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/ket
 
 WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/gmaps_gunakanLokasiSaatIni'))
 
-WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/judul_iklan_owner'), 'ewhfoiewjfiyqeuifioqhfiqegfoq')
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/judul_iklan_owner'), 'ini test aples')
 
-WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/judul_iklan'), 'feqjfkljqfoqjfohwqoihf')
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/judul_iklan'), 'ini test aples')
 
 WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/label_RLG'))
 
 WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Alamat yang diiklankan_adsAddress'), 
-    'jl. cijambe')
+    'jalan dayeuh kolot')
 
 WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/textarea_Deskripsi Listing_adsDescription'), 
-    'ahahahahahhaha')
+    'hee jangan terlalu serius')
 
 WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/textarea_Fasilitas atau selling point_facilities'), 
     'dqjhdjqhfiohqiugfeq')
@@ -76,6 +76,19 @@ WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/tex
 WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/input_Komisi_commission'), '10')
 
 WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/label_Pasang Iklan mediaonline'))
+
+WebUI.uploadFile(findTestObject('LIANA/submission_liana/Page_Listing Management/Page_Listing Management/upload'), 'C:\\Users\\99.co\\Downloads\\a.jpg')
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('LIANA/submission_liana/Page_Listing Management/Page_Listing Management/input_Link Video_upload-video'), 
+    'https://www.youtube.com/watch?v=p7hegEHi9CY')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/Page_Listing Management/add_video'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('LIANA/submission_liana/Page_Listing Management/div_KIRIM PERMINTAAN LISTING'))
 

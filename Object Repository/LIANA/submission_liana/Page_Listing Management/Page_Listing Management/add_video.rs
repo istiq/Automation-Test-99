@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>add_video</name>
+   <tag></tag>
+   <elementGuidId>2faffffe-236a-4528-9d4a-553fc64ba85a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div/div/div/div[5]/div/div/div/div/div[2]/div/div/button/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-atomic-button__content relative flex</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>add</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;ui-modules-admin flex&quot;]/div[@class=&quot;ui-modules-admin__content&quot;]/div[@class=&quot;ui-template-desktop-admin-default&quot;]/div[@class=&quot;ui-template-desktop-admin-default__content p-32&quot;]/div[@class=&quot;ui-pages-listing-dashboard&quot;]/div[@class=&quot;block ui-molecules-form-accordion ui-pages-listing-dashboard__accordion mt-16 ui-molecules-accordion ui-molecules-accordion--show&quot;]/div[@class=&quot;ui-molecules-accordion__content&quot;]/div[1]/div[@class=&quot;p-16&quot;]/div[@class=&quot;ui-pages-listing-dashboard__row flex&quot;]/div[@class=&quot;ui-pages-listing-dashboard__input ui-pages-listing-dashboard__input--half ui-pages-listing-dashboard__input--align-top&quot;]/div[@class=&quot;undefined ui-molecules-youtube-link-uploader&quot;]/div[@class=&quot;ui-molecules-youtube-link-uploader__activator flex&quot;]/button[@class=&quot;block ui-atomic-button ui-atomic-button--icon ui-atomic-button--styling-primary ui-atomic-button--size-large ui-atomic-button--state-fill&quot;]/div[@class=&quot;ui-atomic-button__content relative flex&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/div/div/div[5]/div/div/div/div/div[2]/div/div/button/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link Video'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='add_a_photo'])[1]/following::div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIMPAN SEBAGAI DRAFT'])[1]/preceding::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button/div</value>
+   </webElementXpaths>
+</WebElementEntity>

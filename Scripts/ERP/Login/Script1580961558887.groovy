@@ -13,15 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://web.feature-token.liana.99iddev.net/#/admin/listing/create')
+WebUI.openBrowser('https://admin.feature.ninetynine.id/login')
 
-WebUI.click(findTestObject('LIANA/login/Page_Listing Management/input_username'))
+WebUI.setText(findTestObject('ERP/Login/input_username'), 'admin@ninetynine.id')
 
-WebUI.setText(findTestObject('LIANA/login/Page_Listing Management/input_username'), 'admin@ninetynine.id')
+WebUI.setText(findTestObject('ERP/Login/input_Password'), 'hello')
 
-WebUI.click(findTestObject('LIANA/login/Page_Listing Management/input_Password_password'))
+WebUI.click(findTestObject('ERP/Login/button_Log In'))
 
-WebUI.setText(findTestObject('LIANA/login/Page_Listing Management/input_Password_password'), 'hello')
-
-WebUI.click(findTestObject('LIANA/login/Page_Listing Management/div_LOGIN'))
+WebUI.delay(3)
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>liana</name>
+   <name>ERP_CreateProject</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,17 +9,17 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>ebdfc8f1-01a1-4e95-886c-5aab90895be6</testSuiteGuid>
+   <testSuiteGuid>329924c5-a7cd-475c-b629-79d42c33f5de</testSuiteGuid>
    <testCaseLink>
-      <guid>65f593d9-c3e2-46e9-a0a1-ec0dd6f70fbf</guid>
+      <guid>9cd3ebb1-44b8-4f46-b7e6-3cf44bbb2389</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LIANA/login</testCaseId>
+      <testCaseId>Test Cases/ERP/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e2fa209c-e9b1-4a33-9a33-ae8c51782049</guid>
+      <guid>c2e20c3c-614f-402e-9b24-226e68609772</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LIANA/submission_liana</testCaseId>
+      <testCaseId>Test Cases/ERP/Create_Project</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
