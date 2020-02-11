@@ -22,7 +22,7 @@ WebUI.click(findTestObject('ERP/Create Project/Page_Projects/a_Add Project'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/input_Project Name_ProjectFormname'), 'Project Test ')
+WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/input_Project Name_ProjectFormname'), 'mulki test2')
 
 WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/input_Url Video_ProjectFormvideoUrl'), 'https://www.youtube.com/watch?v=AZ8S4s9uQxw')
 
@@ -128,4 +128,71 @@ WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Proj
 WebUI.click(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/div_rangeDateValidaty'))
 
 WebUI.click(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/li_Last 7 Days'))
+
+WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/input_Commission paid when of price paid_ProjectPaymentTermRule0paidPercentage'), 
+    '2')
+
+WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/input_Commission Paid when_ProjectPaymentTermRule0pricePaidPercentage'), 
+    '2')
+
+WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/input_OR paid when of price paid_ProjectPaymentTermRule1paidPercentage'), 
+    '2')
+
+WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/overriding_paid_when'), '2')
+
+WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/input_Per Square Meter Price_projectform-persquaremeterprice-disp'), 
+    '3000000000')
+
+WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/input_Closing Fee (Agents)_ProjectIncentiveNonCalculatedRule2value'), 
+    '100000')
+
+WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/input_Closing Fee (Agents) Invoice To Collection Time_ProjectFormclosingFeeToAgentInvoiceToCollectionTime'), 
+    '7')
+
+WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/input_Closing Fee (99co)_ProjectIncentiveNonCalculatedRule3value'), 
+    '7')
+
+WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/input_Closing Fee Payment Method_ProjectFormclosingFeePaymentMethod'), 
+    '100000')
+
+WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/input_Closing Fee Payment Term_ProjectFormclosingFeePaymentTerm'), 
+    '200000')
+
+WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/monetary_rewardAgent'), '200000')
+
+WebUI.setText(findTestObject('Object Repository/ERP/Create Project/Page_Add Project/monetary_rewads99co'), '150000')
+
+WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/input_Monetary Reward Payment Method_ProjectFormmonetaryRewardPaymentMethod'), 
+    'installment')
+
+WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/input_Monetary Reward Invoice To Collection Time_ProjectFormmonetaryRewardInvoiceToCollectionTime'), 
+    '7')
+
+WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/Other_Incentives'), '150000')
+
+WebUI.click(findTestObject('ERP/Create Project/Page_Add Project/Status'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/Search_Status'), 'active')
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject('ERP/Create Project/Page_Add Project/Search_Status'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('ERP/Create Project/Page_Add Project/span_Select telesales'))
+
+WebUI.setText(findTestObject('ERP/Create Project/Page_Add Project/input__select2-search__telesales'), 'dina')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('ERP/Create Project/Page_Add Project/Create_ProjectFinished'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('ERP/Create Project/Page_Add Project/Page_Project Articles/nama_project test'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('mulki test2', false)
+
+WebUI.click(findTestObject('ERP/Create Project/Page_Add Project/Page_Project Articles/a_https99coidprojectsproject-test-1842'))
 
