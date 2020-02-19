@@ -14,7 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 'click_reservation/page_create_user'
 WebUI.click(findTestObject('Object Repository/ERP/Create NUP/Page_Create User/span_Reservations'))
 
@@ -22,8 +21,7 @@ WebUI.click(findTestObject('Object Repository/ERP/Create NUP/Page_Create User/sp
 WebUI.click(findTestObject('Object Repository/ERP/Create NUP/Page_Create User/span_NUP'))
 
 'click_createNUP/pageNUP'
-WebUI.click(findTestObject('Object Repository/ERP/Create NUP/Page_NUP/a_Add_NUP'), 
-	FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/ERP/Create NUP/Page_NUP/a_Add_NUP'), FailureHandling.STOP_ON_FAILURE)
 
 'click_select_NUP/pege_create_NUP'
 WebUI.click(findTestObject('Object Repository/ERP/Create NUP/Page_Create NUPs/span_Select a Project'))
@@ -34,8 +32,7 @@ WebUI.setText(findTestObject('Object Repository/ERP/Create NUP/Page_Create NUPs/
 WebUI.delay(2)
 
 'enter_button'
-WebUI.sendKeys(findTestObject('ERP/Create NUP/Page_Create NUPs/input__select2-searchNUP__field'), 
-	Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ERP/Create NUP/Page_Create NUPs/input__select2-searchNUP__field'), Keys.chord(Keys.ENTER))
 
 'input_qualitysequence/page_create_NUP'
 WebUI.setText(findTestObject('ERP/Create NUP/Page_Create NUPs/Input_Numb_QualitySequence'), '10')

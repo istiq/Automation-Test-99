@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d29a31fa-51b7-450d-87cb-4c0f79ef425c</testCaseGuid>
+   <variable>
+      <defaultValue>'mulki lutfhi test'</defaultValue>
+      <description></description>
+      <id>3747dc0c-97cb-447f-81b1-530dfde0cd70</id>
+      <masked>false</masked>
+      <name>variable_name_leads</name>
+   </variable>
 </TestCaseEntity>

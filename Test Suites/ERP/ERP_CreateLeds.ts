@@ -21,5 +21,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ERP/Create_Leads</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3747dc0c-97cb-447f-81b1-530dfde0cd70</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
