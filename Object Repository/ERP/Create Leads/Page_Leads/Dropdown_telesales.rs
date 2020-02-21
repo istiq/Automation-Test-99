@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_group</name>
+   <name>Dropdown_telesales</name>
    <tag></tag>
-   <elementGuidId>339c73e0-b842-4aae-9d8e-86e0cafe1b86</elementGuidId>
+   <elementGuidId>4387baab-995b-41a4-9c9c-9caf24cddc89</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;grid-view-Unassigned-Leads-container&quot;]/table/tbody/tr[1]/td[2]/div/div/input</value>
+         <value>//*[@id=&quot;lead-form&quot;]/div[2]/span/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

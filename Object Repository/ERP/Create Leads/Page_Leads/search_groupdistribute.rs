@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_distribute</name>
+   <name>search_groupdistribute</name>
    <tag></tag>
-   <elementGuidId>f993c6ec-0711-4237-ba73-dd529f036d73</elementGuidId>
+   <elementGuidId>a9109849-e498-427e-a953-a8b2c13337cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;grid-view-Unassigned-Leads-container&quot;]/table/tbody/tr[1]/td[2]/div</value>
+         <value>//*[@id=&quot;grid-view-Unassigned-Leads-container&quot;]/table/tbody/tr[1]/td[2]/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

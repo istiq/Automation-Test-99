@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>search_group</name>
+   <name>group_akmal</name>
    <tag></tag>
-   <elementGuidId>c2fce765-b578-4aa2-8b27-fde2b012f4c9</elementGuidId>
+   <elementGuidId>ec45b2a4-0263-4e05-b0ab-727e9963c5c0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;grid-view-Unassigned-Leads-container&quot;]/table/tbody/tr[1]/td[2]/div/div/input</value>
+         <value>//*[@id=&quot;w5&quot;]/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
