@@ -38,11 +38,11 @@ WebUI.setText(findTestObject('ERP/Create Leads/Page_Create Lead/input__select2-s
 
 WebUI.sendKeys(findTestObject('ERP/Create Leads/Page_Create Lead/input__select2-search__field'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('ERP/Create Leads/Page_Create Lead/input_Full Name_ProjectLeadFormfullName'), 'mulki lutfhi test4')
+WebUI.setText(findTestObject('ERP/Create Leads/Page_Create Lead/input_Full Name_ProjectLeadFormfullName'), 'mulki lutfhi test9')
 
 WebUI.setText(findTestObject('ERP/Create Leads/Page_Create Lead/input_Email_ProjectLeadFormemail'), 'mulki@gmail')
 
-WebUI.setText(findTestObject('ERP/Create Leads/Page_Create Lead/input_land Islands_ProjectLeadFormtelephone'), '098765434569')
+WebUI.setText(findTestObject('ERP/Create Leads/Page_Create Lead/input_land Islands_ProjectLeadFormtelephone'), '0987654345611')
 
 WebUI.setText(findTestObject('ERP/Create Leads/Page_Create Lead/input_Location_ProjectLeadFormlocation'), 'garut')
 
@@ -78,7 +78,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('ERP/Create Leads/Page_Create Lead/verify_name'))
 
-WebUI.verifyTextPresent('mulki lutfhi test4', false)
+WebUI.verifyTextPresent('mulki lutfhi test9', false)
 
 WebUI.click(findTestObject('ERP/Create Leads/Page_Create User/span_Lead'))
 
@@ -86,9 +86,13 @@ WebUI.click(findTestObject('ERP/Create Leads/Page_Create User/span_Leads'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('ERP/Create Leads/Page_Leads/button_distribute'))
+WebUI.click(findTestObject('ERP/Create Leads/Page_Leads/button_dropdown_distribute'))
 
-WebUI.selectOptionByValue(findTestObject('ERP/Create Leads/Page_Leads/dropdown'), 'Akmal 14-10-19', false)
+WebUI.delay(5)
 
-WebUI.verifyAlertPresent(5)
+WebUI.setText(findTestObject('ERP/Create Leads/Page_Leads/search_groupdistribute'), 'akmal')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('ERP/Create Leads/Page_Leads/group_akmal'))
 
