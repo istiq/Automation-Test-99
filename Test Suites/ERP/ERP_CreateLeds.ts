@@ -14,13 +14,13 @@
       <guid>ef9f88e4-8778-4d10-8f1d-7630b435f474</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ERP/Login</testCaseId>
+      <testCaseId>Test Cases/Desktop/ERP/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>010a3177-fd08-4066-a442-887a1130b63b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ERP/Create_Leads</testCaseId>
+      <testCaseId>Test Cases/Desktop/ERP/Create_Leads</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

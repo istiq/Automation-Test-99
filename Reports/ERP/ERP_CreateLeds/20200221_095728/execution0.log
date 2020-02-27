@@ -2019,3 +2019,223 @@
   <nestedLevel>0</nestedLevel>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-02-21T11:28:33</date>
+  <millis>1582259313222</millis>
+  <sequence>1060</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>405</thread>
+  <message>deviceId = JRHYNF8SBMNNIRCQ</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">JRHYNF8SBMNNIRCQ</property>
+</record>
+<record>
+  <date>2020-02-21T11:28:33</date>
+  <millis>1582259313223</millis>
+  <sequence>1061</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>405</thread>
+  <message>deviceName = Xiaomi Redmi Note 2 (Android 5.0.2)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 2 (Android 5.0.2)</property>
+</record>
+<record>
+  <date>2020-02-21T11:28:33</date>
+  <millis>1582259313223</millis>
+  <sequence>1062</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>405</thread>
+  <message>deviceModel = Redmi Note 2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 2</property>
+</record>
+<record>
+  <date>2020-02-21T11:28:33</date>
+  <millis>1582259313223</millis>
+  <sequence>1063</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>405</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2020-02-21T11:28:33</date>
+  <millis>1582259313223</millis>
+  <sequence>1064</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>405</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-02-21T11:28:33</date>
+  <millis>1582259313223</millis>
+  <sequence>1065</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>405</thread>
+  <message>deviceOSVersion = 5.0.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">5.0.2</property>
+</record>
+<record>
+  <date>2020-02-21T11:29:41</date>
+  <millis>1582259381999</millis>
+  <sequence>1067</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>421</thread>
+  <message>deviceId = JRHYNF8SBMNNIRCQ</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">JRHYNF8SBMNNIRCQ</property>
+</record>
+<record>
+  <date>2020-02-21T11:29:41</date>
+  <millis>1582259381999</millis>
+  <sequence>1068</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>421</thread>
+  <message>deviceName = Xiaomi Redmi Note 2 (Android 5.0.2)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 2 (Android 5.0.2)</property>
+</record>
+<record>
+  <date>2020-02-21T11:29:41</date>
+  <millis>1582259381999</millis>
+  <sequence>1069</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>421</thread>
+  <message>deviceModel = Redmi Note 2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 2</property>
+</record>
+<record>
+  <date>2020-02-21T11:29:41</date>
+  <millis>1582259381999</millis>
+  <sequence>1070</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>421</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2020-02-21T11:29:41</date>
+  <millis>1582259381999</millis>
+  <sequence>1071</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>421</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-02-21T11:29:41</date>
+  <millis>1582259381999</millis>
+  <sequence>1072</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>421</thread>
+  <message>deviceOSVersion = 5.0.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">5.0.2</property>
+</record>
+<record>
+  <date>2020-02-21T14:40:51</date>
+  <millis>1582270851551</millis>
+  <sequence>1074</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>461</thread>
+  <message>deviceId = JRHYNF8SBMNNIRCQ</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceId">JRHYNF8SBMNNIRCQ</property>
+</record>
+<record>
+  <date>2020-02-21T14:40:51</date>
+  <millis>1582270851552</millis>
+  <sequence>1075</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>461</thread>
+  <message>deviceName = Xiaomi Redmi Note 2 (Android 5.0.2)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 2 (Android 5.0.2)</property>
+</record>
+<record>
+  <date>2020-02-21T14:40:51</date>
+  <millis>1582270851552</millis>
+  <sequence>1076</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>461</thread>
+  <message>deviceModel = Redmi Note 2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceModel">Redmi Note 2</property>
+</record>
+<record>
+  <date>2020-02-21T14:40:51</date>
+  <millis>1582270851552</millis>
+  <sequence>1077</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>461</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2020-02-21T14:40:51</date>
+  <millis>1582270851553</millis>
+  <sequence>1078</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>461</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-02-21T14:40:51</date>
+  <millis>1582270851553</millis>
+  <sequence>1079</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>461</thread>
+  <message>deviceOSVersion = 5.0.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="deviceOSVersion">5.0.2</property>
+</record>
+</log>

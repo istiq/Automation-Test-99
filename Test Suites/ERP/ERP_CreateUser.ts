@@ -14,12 +14,12 @@
       <guid>ff4781fb-6067-4a8c-ae25-7e32bfcda642</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ERP/Login</testCaseId>
+      <testCaseId>Test Cases/Desktop/ERP/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>80b9f51d-4179-47b0-8b0c-c9d7da3d9b38</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ERP/Create user</testCaseId>
+      <testCaseId>Test Cases/Desktop/ERP/Create user</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
