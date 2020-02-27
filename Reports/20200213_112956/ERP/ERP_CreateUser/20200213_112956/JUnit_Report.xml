@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ERP_CreateUser" time="32.25" tests="2" failures="0" errors="0">
+   <testsuite name="ERP_CreateUser" tests="2" failures="0" errors="0" time="32.25" timestamp="2020-02-13 11:30:09" hostname="indrikuryawati - 10.10.10.249" id="Test Suites/ERP/ERP_CreateUser">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/indrikuryawati/git/automated-testing-scenario/Reports/20200213_112956/ERP/ERP_CreateUser/20200213_112956"/>
+         <property name="logFiles" value="/Users/indrikuryawati/git/automated-testing-scenario/Reports/20200213_112956/ERP/ERP_CreateUser/20200213_112956/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="indrikuryawati - 10.10.10.249"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 73.0"/>
+         <property name="hostAddress" value="10.10.10.249"/>
+         <property name="sessionId" value="a93eca41-0486-334a-92d4-01ea7073085a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/ERP/Login" time="14.434" classname="Test Cases/ERP/Login" status="PASSED">
+         <system-out><![CDATA[2020-02-13 11:30:09 - [TEST_CASE][PASSED] - Test Cases/ERP/Login: Test Cases/ERP/Login
+
+2020-02-13 11:30:09 - [TEST_STEP][PASSED] - openBrowser("https://admin.feature.ninetynine.id/login"): Browser is opened with url: 'https://admin.feature.ninetynine.id/login'
+
+2020-02-13 11:30:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-13 11:30:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-13 11:30:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://admin.feature.ninetynine.id/login'
+
+2020-02-13 11:30:17 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Login/input_username"), "admin@ninetynine.id"): Text 'admin@ninetynine.id' is set on object 'Object Repository/ERP/Login/input_username'
+
+2020-02-13 11:30:18 - [MESSAGE][PASSED] - Text 'admin@ninetynine.id' is set on object 'Object Repository/ERP/Login/input_username'
+
+2020-02-13 11:30:18 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Login/input_Password"), "hello"): Text 'hello' is set on object 'Object Repository/ERP/Login/input_Password'
+
+2020-02-13 11:30:18 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/ERP/Login/input_Password'
+
+2020-02-13 11:30:18 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Login/button_Log In")): Object: 'Object Repository/ERP/Login/button_Log In' is clicked on
+
+2020-02-13 11:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Login/button_Log In' is clicked on
+
+2020-02-13 11:30:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-13 11:30:23 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ERP/Create user" time="14.899" classname="Test Cases/ERP/Create user" status="PASSED">
+         <system-out><![CDATA[2020-02-13 11:30:23 - [TEST_CASE][PASSED] - Test Cases/ERP/Create user: Test Cases/ERP/Create user
+
+2020-02-13 11:30:23 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create user/Page_Users/a_Users")): Object: 'Object Repository/ERP/Create user/Page_Users/a_Users' is clicked on
+
+2020-02-13 11:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create user/Page_Users/a_Users' is clicked on
+
+2020-02-13 11:30:24 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create user/Page_Users/span_All Users")): Object: 'Object Repository/ERP/Create user/Page_Users/span_All Users' is clicked on
+
+2020-02-13 11:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create user/Page_Users/span_All Users' is clicked on
+
+2020-02-13 11:30:25 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create user/Page_Users/a_Add User")): Object: 'Object Repository/ERP/Create user/Page_Users/a_Add User' is clicked on
+
+2020-02-13 11:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create user/Page_Users/a_Add User' is clicked on
+
+2020-02-13 11:30:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-13 11:30:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-13 11:30:29 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create user/Page_Create User/input_fullname"), "Test Mulki"): Text 'Test Mulki' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_fullname'
+
+2020-02-13 11:30:30 - [MESSAGE][PASSED] - Text 'Test Mulki' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_fullname'
+
+2020-02-13 11:30:30 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create user/Page_Create User/input_Email_UserFormemail"), "mulki@99.co"): Text 'mulki@99.co' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_Email_UserFormemail'
+
+2020-02-13 11:30:30 - [MESSAGE][PASSED] - Text 'mulki@99.co' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_Email_UserFormemail'
+
+2020-02-13 11:30:30 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create user/Page_Create User/input_telepon"), "+628111111111111"): Text '+628111111111111' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_telepon'
+
+2020-02-13 11:30:31 - [MESSAGE][PASSED] - Text '+628111111111111' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_telepon'
+
+2020-02-13 11:30:31 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create user/Page_Create User/input_password"), "Ml100795"): Text 'Ml100795' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_password'
+
+2020-02-13 11:30:31 - [MESSAGE][PASSED] - Text 'Ml100795' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_password'
+
+2020-02-13 11:30:31 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create user/Page_Create User/select_role")): Object: 'Object Repository/ERP/Create user/Page_Create User/select_role' is clicked on
+
+2020-02-13 11:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create user/Page_Create User/select_role' is clicked on
+
+2020-02-13 11:30:32 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create user/Page_Create User/seacrh_role"), "agent"): Text 'agent' is set on object 'Object Repository/ERP/Create user/Page_Create User/seacrh_role'
+
+2020-02-13 11:30:32 - [MESSAGE][PASSED] - Text 'agent' is set on object 'Object Repository/ERP/Create user/Page_Create User/seacrh_role'
+
+2020-02-13 11:30:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ERP/Create user/Page_Create User/seacrh_role"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create user/Page_Create User/seacrh_role'
+
+2020-02-13 11:30:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create user/Page_Create User/seacrh_role'
+
+2020-02-13 11:30:33 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create user/Page_Create User/input_joindate"), "2020-02-06"): Text '2020-02-06' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_joindate'
+
+2020-02-13 11:30:34 - [MESSAGE][PASSED] - Text '2020-02-06' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_joindate'
+
+2020-02-13 11:30:34 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create user/Page_Create User/input_monthTarget"), "10000000"): Text '10000000' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_monthTarget'
+
+2020-02-13 11:30:34 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/ERP/Create user/Page_Create User/input_monthTarget'
+
+2020-02-13 11:30:34 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create user/Page_Create User/select_manager")): Object: 'Object Repository/ERP/Create user/Page_Create User/select_manager' is clicked on
+
+2020-02-13 11:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create user/Page_Create User/select_manager' is clicked on
+
+2020-02-13 11:30:35 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create user/Page_Create User/input__select2-search__field"), "auliya"): Text 'auliya' is set on object 'Object Repository/ERP/Create user/Page_Create User/input__select2-search__field'
+
+2020-02-13 11:30:36 - [MESSAGE][PASSED] - Text 'auliya' is set on object 'Object Repository/ERP/Create user/Page_Create User/input__select2-search__field'
+
+2020-02-13 11:30:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ERP/Create user/Page_Create User/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create user/Page_Create User/input__select2-search__field'
+
+2020-02-13 11:30:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create user/Page_Create User/input__select2-search__field'
+
+2020-02-13 11:30:37 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create user/Page_Create User/button_Create")): Object: 'Object Repository/ERP/Create user/Page_Create User/button_Create' is clicked on
+
+2020-02-13 11:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create user/Page_Create User/button_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-13 11:30:09 - [TEST_SUITE][PASSED] - ERP_CreateUser: Test Cases/ERP/Create user]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ERP_CreateLeds" time="36.752" tests="2" failures="0" errors="0">
+   <testsuite name="ERP_CreateLeds" tests="2" failures="0" errors="0" time="36.752" timestamp="2020-02-19 14:43:05" hostname="indrikuryawati - 10.10.10.239" id="Test Suites/ERP/ERP_CreateLeds">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/indrikuryawati/git/automated-testing-scenario/Reports/20200219_144252/ERP/ERP_CreateLeds/20200219_144252"/>
+         <property name="logFiles" value="/Users/indrikuryawati/git/automated-testing-scenario/Reports/20200219_144252/ERP/ERP_CreateLeds/20200219_144252/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="indrikuryawati - 10.10.10.239"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 73.0"/>
+         <property name="hostAddress" value="10.10.10.239"/>
+         <property name="sessionId" value="4e430244-b8dc-8a4c-9b01-877934bee95b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/ERP/Login" time="12.027" classname="Test Cases/ERP/Login" status="PASSED">
+         <system-out><![CDATA[2020-02-19 14:43:05 - [TEST_CASE][PASSED] - Test Cases/ERP/Login: Test Cases/ERP/Login
+
+2020-02-19 14:43:06 - [TEST_STEP][PASSED] - openBrowser("https://admin.feature.ninetynine.id/login"): Browser is opened with url: 'https://admin.feature.ninetynine.id/login'
+
+2020-02-19 14:43:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-19 14:43:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-19 14:43:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://admin.feature.ninetynine.id/login'
+
+2020-02-19 14:43:11 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Login/input_username"), "admin@ninetynine.id"): Text 'admin@ninetynine.id' is set on object 'Object Repository/ERP/Login/input_username'
+
+2020-02-19 14:43:12 - [MESSAGE][PASSED] - Text 'admin@ninetynine.id' is set on object 'Object Repository/ERP/Login/input_username'
+
+2020-02-19 14:43:12 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Login/input_Password"), "hello"): Text 'hello' is set on object 'Object Repository/ERP/Login/input_Password'
+
+2020-02-19 14:43:12 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/ERP/Login/input_Password'
+
+2020-02-19 14:43:12 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Login/button_Log In")): Object: 'Object Repository/ERP/Login/button_Log In' is clicked on
+
+2020-02-19 14:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Login/button_Log In' is clicked on
+
+2020-02-19 14:43:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-19 14:43:17 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ERP/Create_Leads" time="20.83" classname="Test Cases/ERP/Create_Leads" status="PASSED">
+         <system-out><![CDATA[2020-02-19 14:43:17 - [TEST_CASE][PASSED] - Test Cases/ERP/Create_Leads: Test Cases/ERP/Create_Leads
+
+2020-02-19 14:43:18 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create User/span_Lead")): Object: 'Object Repository/ERP/Create Leads/Page_Create User/span_Lead' is clicked on
+
+2020-02-19 14:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create User/span_Lead' is clicked on
+
+2020-02-19 14:43:18 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create User/span_Leads")): Object: 'Object Repository/ERP/Create Leads/Page_Create User/span_Leads' is clicked on
+
+2020-02-19 14:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create User/span_Leads' is clicked on
+
+2020-02-19 14:43:20 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Leads/a_Add Leads")): Object: 'Object Repository/ERP/Create Leads/Page_Leads/a_Add Leads' is clicked on
+
+2020-02-19 14:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Leads/a_Add Leads' is clicked on
+
+2020-02-19 14:43:21 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create Lead/span_Select Project")): Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Project' is clicked on
+
+2020-02-19 14:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Project' is clicked on
+
+2020-02-19 14:43:23 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), "project test"): Text 'project test' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:23 - [MESSAGE][PASSED] - Text 'project test' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:24 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create Lead/span_Select telesales status")): Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select telesales status' is clicked on
+
+2020-02-19 14:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select telesales status' is clicked on
+
+2020-02-19 14:43:25 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), "qualified"): Text 'qualified' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:25 - [MESSAGE][PASSED] - Text 'qualified' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:25 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create Lead/span_Select telesales")): Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select telesales' is clicked on
+
+2020-02-19 14:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select telesales' is clicked on
+
+2020-02-19 14:43:26 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), "indri1"): Text 'indri1' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:26 - [MESSAGE][PASSED] - Text 'indri1' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:27 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input_Full Name_ProjectLeadFormfullName"), "mulki lutfhi test"): Text 'mulki lutfhi test' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input_Full Name_ProjectLeadFormfullName'
+
+2020-02-19 14:43:27 - [MESSAGE][PASSED] - Text 'mulki lutfhi test' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input_Full Name_ProjectLeadFormfullName'
+
+2020-02-19 14:43:27 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input_Email_ProjectLeadFormemail"), "mulki@gmail"): Text 'mulki@gmail' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input_Email_ProjectLeadFormemail'
+
+2020-02-19 14:43:28 - [MESSAGE][PASSED] - Text 'mulki@gmail' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input_Email_ProjectLeadFormemail'
+
+2020-02-19 14:43:28 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input_land Islands_ProjectLeadFormtelephone"), "098765434567"): Text '098765434567' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input_land Islands_ProjectLeadFormtelephone'
+
+2020-02-19 14:43:29 - [MESSAGE][PASSED] - Text '098765434567' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input_land Islands_ProjectLeadFormtelephone'
+
+2020-02-19 14:43:29 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input_Location_ProjectLeadFormlocation"), "garut"): Text 'garut' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input_Location_ProjectLeadFormlocation'
+
+2020-02-19 14:43:29 - [MESSAGE][PASSED] - Text 'garut' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input_Location_ProjectLeadFormlocation'
+
+2020-02-19 14:43:29 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create Lead/span_Select Budget")): Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Budget' is clicked on
+
+2020-02-19 14:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Budget' is clicked on
+
+2020-02-19 14:43:30 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), "1milyar"): Text '1milyar' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:31 - [MESSAGE][PASSED] - Text '1milyar' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:31 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create Lead/span_Select Source")): Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Source' is clicked on
+
+2020-02-19 14:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Source' is clicked on
+
+2020-02-19 14:43:32 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), "whatsapp"): Text 'whatsapp' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:32 - [MESSAGE][PASSED] - Text 'whatsapp' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:33 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create Lead/span_Select Timeline")): Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Timeline' is clicked on
+
+2020-02-19 14:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Timeline' is clicked on
+
+2020-02-19 14:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), "1 month"): Text '1 month' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:34 - [MESSAGE][PASSED] - Text '1 month' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:34 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create Lead/span_Select Purpose")): Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Purpose' is clicked on
+
+2020-02-19 14:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/span_Select Purpose' is clicked on
+
+2020-02-19 14:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), "buying"): Text 'buying' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:36 - [MESSAGE][PASSED] - Text 'buying' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ERP/Create Leads/Page_Create Lead/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ERP/Create Leads/Page_Create Lead/input__select2-search__field'
+
+2020-02-19 14:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("ERP/Create Leads/Page_Create Lead/textarea_Notes_ProjectLeadFormnotes"), "ini test"): Text 'ini test' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/textarea_Notes_ProjectLeadFormnotes'
+
+2020-02-19 14:43:37 - [MESSAGE][PASSED] - Text 'ini test' is set on object 'Object Repository/ERP/Create Leads/Page_Create Lead/textarea_Notes_ProjectLeadFormnotes'
+
+2020-02-19 14:43:37 - [TEST_STEP][PASSED] - click(findTestObject("ERP/Create Leads/Page_Create Lead/button_Create")): Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/button_Create' is clicked on
+
+2020-02-19 14:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ERP/Create Leads/Page_Create Lead/button_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-19 14:43:05 - [TEST_SUITE][PASSED] - ERP_CreateLeds: Test Cases/ERP/Create_Leads]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
