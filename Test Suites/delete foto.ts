@@ -14,12 +14,12 @@
       <guid>c3c4c34a-fcad-4afb-beb4-5f192be7fd0a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/shortlist/Login</testCaseId>
+      <testCaseId>Test Cases/Desktop/shortlist/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5d7c4878-4632-4567-97fa-d2efcec94dc7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/shortlist/delete foto</testCaseId>
+      <testCaseId>Test Cases/Desktop/shortlist/delete foto</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
