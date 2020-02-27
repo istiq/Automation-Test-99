@@ -14,12 +14,12 @@
       <guid>65f593d9-c3e2-46e9-a0a1-ec0dd6f70fbf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LIANA/login</testCaseId>
+      <testCaseId>Test Cases/Desktop/LIANA/login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e2fa209c-e9b1-4a33-9a33-ae8c51782049</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LIANA/submission_liana</testCaseId>
+      <testCaseId>Test Cases/Desktop/LIANA/submission_liana</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

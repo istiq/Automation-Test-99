@@ -14,12 +14,12 @@
       <guid>5d610bae-0bee-4407-b516-43b8050ed497</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/shortlist/Login</testCaseId>
+      <testCaseId>Test Cases/Desktop/shortlist/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>09643d95-52b2-4f90-a58f-8d2be8b697c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/shortlist/Share ke Whatsapp</testCaseId>
+      <testCaseId>Test Cases/Desktop/shortlist/Share ke Whatsapp</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

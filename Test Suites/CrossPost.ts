@@ -14,12 +14,12 @@
       <guid>7a525717-d3d8-4f9d-9cfa-f0599121e0cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Crospost/Login</testCaseId>
+      <testCaseId>Test Cases/Desktop/Crospost/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>55d87aab-d82b-4826-a5f8-ff6330ca9c85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Crospost/Cross Post</testCaseId>
+      <testCaseId>Test Cases/Desktop/Crospost/Cross Post</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
