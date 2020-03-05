@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CRM_user2_decline</name>
+   <name>CRM_user3_decline</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a199c214-5f2e-49a7-94c8-864150e92918</testCaseGuid>
+   <testCaseGuid>5b1bfcca-89bb-410f-9919-a8601635d30d</testCaseGuid>
 </TestCaseEntity>

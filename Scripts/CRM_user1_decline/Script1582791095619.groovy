@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\99.co\\Downloads\\99Crm-debug-1000412.apk', true)
+Mobile.startApplication('C:\\Users\\99.co\\Downloads\\99Crm-debug-1000413.apk', true)
 
 Mobile.setText(findTestObject('Android/android.widget.EditText0 (5)'), '83829943719', 0)
 
@@ -43,9 +43,7 @@ Mobile.pressBack()
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/android.widget.Switch0 - OFF (1)'), 0)
-
-Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Android/android.widget.TextView0 - DECLINE (1)'), 0)
 
