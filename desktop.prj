@@ -6,6 +6,7 @@
    <UUID>8a3edc28-e71d-4a02-b296-fd167c773dfd</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/istiqomah-/git/automated-testing-scenario/desktop.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

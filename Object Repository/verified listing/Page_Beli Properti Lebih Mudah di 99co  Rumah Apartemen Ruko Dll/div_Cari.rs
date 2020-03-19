@@ -4,7 +4,29 @@
    <name>div_Cari</name>
    <tag></tag>
    <elementGuidId>262a5691-aa2a-4bb6-a704-3aeda190e677</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='search-bar-homepage']/div/div/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '
+            Cari
+                
+                    
+                        
+                    
+                        ' or . = '
+            Cari
+                
+                    
+                        
+                    
+                        ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

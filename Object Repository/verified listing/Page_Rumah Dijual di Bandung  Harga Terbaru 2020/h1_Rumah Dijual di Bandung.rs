@@ -4,7 +4,17 @@
    <name>h1_Rumah Dijual di Bandung</name>
    <tag></tag>
    <elementGuidId>665dcf8e-4ee2-4645-81c2-8124debf509a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-search-container']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'Rumah Dijual di Bandung' or . = 'Rumah Dijual di Bandung')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

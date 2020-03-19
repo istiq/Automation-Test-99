@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\99.co\\Downloads\\99Crm-debug-1000413.apk', true)
+Mobile.startApplication('/Users/istiqomah-/Downloads/99Crm-debug-1000413.apk', true)
 
 Mobile.setText(findTestObject('Android/android.widget.EditText0 (5)'), '83829943719', 0)
 
