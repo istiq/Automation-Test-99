@@ -32,7 +32,7 @@ WebUI.selectOptionByValue(findTestObject('KPR/Calculator/select_fix_year'), '3',
 
 WebUI.setText(findTestObject('KPR/Calculator/input_floating_rate'), '12.25')
 
-WebUI.setText(findTestObject('KPR/Calculator/input_tenor'), '15')
+WebUI.setText(findTestObject('KPR/Calculator/input_tenor'), '20')
 
 WebUI.click(findTestObject('KPR/Calculator/button_hitungKPR'), FailureHandling.STOP_ON_FAILURE)
 
